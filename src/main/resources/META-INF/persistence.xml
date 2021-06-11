@@ -7,7 +7,7 @@
 
 	<persistence-unit name="rwaPU">
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
-		<class>ba.fet.rwa.Video</class>
+		<class>ba.fet.rwa.entities.Video</class>
 		<properties>
 			<property name="hibernate.connection.url"
 				value="jdbc:mysql://localhost/rwadb" />

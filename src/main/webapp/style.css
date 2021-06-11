@@ -1,0 +1,87 @@
+body {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 50px;
+}
+
+div {
+	text-align: center;
+}
+
+iframe {
+	width: 28vw;
+	height: 21vw;
+	margin: 1vw;
+}
+
+table {
+	column-width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	border-collapse: collapse;
+	width: 66vw;
+}
+
+.videoTitle {
+	font-family: "Arial", sans-serif;
+	font-size: 30px;
+	text-align: center;
+	font-weight: lighter;
+	color: #555555;
+}
+
+.voteButton {
+	font-family: "Arial Black", sans-serif;
+	font-size: 2vw;
+	text-transform: uppercase;
+	background-color: white;
+	border-radius: 4px;
+	color: black;
+	border: 2px solid #555555;
+	padding: 10px;
+	transition-duration: 0.5s;
+}
+
+button.voteButton:hover {
+	background-color: #555555;
+	color: white;
+}
+
+.topVideos {
+	font-family: "Arial Black", sans-serif;
+}
+
+.topVideos th {
+	font-size: 15px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding: 15px;
+	background-color: #666666;
+	color: white;
+}
+
+.topVideos tr {
+	border-bottom: 1px solid #ddd;
+	transition-duration: 0.5s;
+}
+
+.topVideos tr:hover {
+	background-color: #f5f5f5;
+}
+
+.topVideos td {
+	color: #505050;
+	padding: 5px;
+	padding-left: 20px;
+}
+
+#title {
+	font-family: "Aspergit", sans-serif;
+	font-size: 70px;
+	text-transform: uppercase;
+	color: white;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	-webkit-text-stroke: 0.07vw black;
+}

@@ -1,4 +1,4 @@
-package ba.fet.rwa;
+package ba.fet.rwa.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -15,22 +15,22 @@ public class Video {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name = "id")
 	private int id;
-	
+
 	@Column(name = "youtube_id")
 	private String youtubeId;
-	
+
 	@Column(name = "title")
 	private String title;
-	
+
 	@Column(name = "total_votes")
 	private int totalVotes;
-	
-	@Column(name = "positive_votes")
-	private int positiveVotes; 
-	
-	public Video() {}
 
-	
+	@Column(name = "positive_votes")
+	private int positiveVotes;
+
+	public Video() {
+	}
+
 	public Video(String youtubeId, String title) {
 		super();
 		this.youtubeId = youtubeId;
@@ -38,7 +38,6 @@ public class Video {
 		this.totalVotes = 0;
 		this.positiveVotes = 0;
 	}
-
 
 	public int getId() {
 		return id;
